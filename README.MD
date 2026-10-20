@@ -12,13 +12,6 @@ CashMate/
 └── README.md
 ```
 
-## Persyaratan
-
-Pastikan sudah menginstal:
-
-- Node.js dan npm
-- PostgreSQL atau akses database PostgreSQL
-
 ## Cara Menjalankan Project
 
 Frontend dan backend dijalankan melalui dua terminal terpisah.
