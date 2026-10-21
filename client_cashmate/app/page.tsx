@@ -110,8 +110,6 @@ export default function Home() {
   const saveTransaction = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    console.log('TOMBOL SIMPAN DIKLIK');
-
     setSaving(true);
     setError('');
 
@@ -413,7 +411,7 @@ export default function Home() {
                     onChange={(e) =>
                       setForm({ ...form, title: e.target.value })
                     }
-                    placeholder="Contoh: Gaji bulanan"
+                    placeholder="Contoh: Kas bulanan"
                     className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none focus:border-[#829474]"
                   />
                 </div>
